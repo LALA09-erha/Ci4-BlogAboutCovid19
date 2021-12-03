@@ -1,0 +1,580 @@
+CRITICAL - 2021-06-19 04:48:20 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 04:48:59 --> Undefined array key "username"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 186)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 04:53:17 --> Call to undefined method App\Controllers\Admin\Users::call()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 04:53:43 --> Call to undefined method App\Controllers\Admin\Users::call()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 04:54:07 --> Call to undefined method App\Controllers\Admin\Users::call()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 04:54:42 --> Undefined constant "App\Controllers\Admin\id"
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 04:55:26 --> Undefined array key 6
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 04:55:33 --> Undefined array key 7
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 187)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 05:01:53 --> Unclosed '{' on line 184 does not match ']'
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:01:56 --> Unclosed '{' on line 184 does not match ']'
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:11:53 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php on line 188
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(188): CodeIgniter\BaseModel->delete('users', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 05:16:05 --> CodeIgniter\BaseModel::delete(): Argument #2 ($purge) must be of type bool, array given, called in C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php on line 189
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\BaseModel->delete('users', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 05:17:23 --> Call to undefined method App\Models\UserModel::did_delete_row
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Model->__call('did_delete_row', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 05:20:44 --> Call to undefined method App\Models\UserModel::deleterecords
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Model->__call('deleterecords', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 05:26:08 --> Call to undefined method App\Models\UserModel::orderBy()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 05:28:50 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:28:51 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:28:53 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:34:14 --> syntax error, unexpected identifier "dd"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:35:58 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 05:36:43 --> Call to a member function delete() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->hapus()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 05:59:51 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 05:59:55 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 06:34:16 --> Undefined constant "App\Controllers\Admin\data"
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit('1')
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 06:35:02 --> Call to undefined method App\Models\UserModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit('1')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 06:58:19 --> Invalid file: /edit.php
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(192): view('/edit', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit('41')
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 06:58:24 --> Invalid file: /edit.php
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/edit.php')
+#1 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('/edit', Array, true)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(192): view('/edit', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit('1')
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 06:59:16 --> Too few arguments to function App\Controllers\Admin\Users::edit(), 0 passed in C:\xampp\htdocs\ci4app\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-19 07:05:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\ci4app\system\Model.php on line 800
+#0 C:\xampp\htdocs\ci4app\system\Model.php(800): CodeIgniter\Database\BaseBuilder->get('fikrierha')
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Model->__call('get', Array)
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-19 07:06:46 --> Undefined array key "username"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 189)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 07:07:07 --> Call to undefined method App\Models\UserModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(189): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 07:31:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Views\home\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(191): view('home/edit', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 07:32:47 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 206)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->update()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 07:37:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Views\home\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(191): view('home/edit', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 07:45:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci4app\app\Views\home\edit.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(191): view('home/edit', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 07:46:39 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->update()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 08:02:28 --> Undefined property: App\Controllers\Admin\Users::$db
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->update()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 08:26:09 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(89): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:51:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:55:53 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 08:56:17 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 08:56:20 --> Invalid file: home/profile?id=1.php
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/profile?id...')
+#1 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile?id...', Array, true)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile?id...', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 08:57:04 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 92)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 08:57:34 --> syntax error, unexpected identifier "warning", expecting ")"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-19 08:57:57 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:58:10 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:58:56 --> Undefined variable $users
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:59:02 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:59:04 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 08:59:07 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\profile.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 70)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(92): view('home/profile', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 09:21:39 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 09:24:30 --> Undefined variable $username
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->index()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-19 09:33:44 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\View\View.php(246): CodeIgniter\View\View->render('layout/admin', Array, true)
+#4 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/users', Array, true)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(78): view('home/users', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->user()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-19 09:34:21 --> Array to string conversion
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\View\View.php(246): CodeIgniter\View\View->render('layout/admin', Array, true)
+#4 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/users', Array, true)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(78): view('home/users', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->user()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-19 09:35:56 --> Undefined variable $user
+#0 C:\xampp\htdocs\ci4app\app\Views\layout\admin.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\View\View.php(246): CodeIgniter\View\View->render('layout/admin', Array, true)
+#4 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/profile', Array, true)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(93): view('home/profile', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->profile()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-19 18:16:56 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(221): view('home/edit', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-19 18:18:01 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(222): view('home/edit', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-19 18:20:48 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\ci4app\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#3 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(223): view('home/edit', Array)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-19 18:21:26 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(223): view('home/edit', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 18:21:35 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Views\home\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\ci4app\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4app\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4app\system\Common.php(1271): CodeIgniter\View\View->render('home/edit', Array, true)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(223): view('home/edit', Array)
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->edit()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-19 18:23:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 231)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->update()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

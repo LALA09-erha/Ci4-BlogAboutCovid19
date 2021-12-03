@@ -1,0 +1,410 @@
+ERROR - 2021-06-14 16:46:03 --> Table 'products.username' doesn't exist
+CRITICAL - 2021-06-14 16:46:03 --> Table 'products.username' doesn't exist
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(329): mysqli->query('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SHOW COLUMNS FR...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW COLUMNS FR...')
+#3 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(483): CodeIgniter\Database\BaseConnection->query('SHOW COLUMNS FR...')
+#4 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(1679): CodeIgniter\Database\MySQLi\Connection->_fieldData('`username`')
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(84): CodeIgniter\Database\BaseConnection->getFieldData('username')
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-14 16:57:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 16:58:00 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getFieldData(), 0 passed in C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php on line 85 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Database\BaseConnection->getFieldData()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-14 16:59:10 --> Table 'products.fikri' doesn't exist
+CRITICAL - 2021-06-14 16:59:10 --> Table 'products.fikri' doesn't exist
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(329): mysqli->query('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SHOW COLUMNS FR...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW COLUMNS FR...')
+#3 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(483): CodeIgniter\Database\BaseConnection->query('SHOW COLUMNS FR...')
+#4 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(1679): CodeIgniter\Database\MySQLi\Connection->_fieldData('`fikri`')
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Database\BaseConnection->getFieldData('fikri')
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-06-14 16:59:43 --> Table 'products.fikri' doesn't exist
+CRITICAL - 2021-06-14 16:59:43 --> Table 'products.fikri' doesn't exist
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(329): mysqli->query('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SHOW COLUMNS FR...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SHOW COLUMNS FR...')
+#3 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(483): CodeIgniter\Database\BaseConnection->query('SHOW COLUMNS FR...')
+#4 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(1679): CodeIgniter\Database\MySQLi\Connection->_fieldData('`fikri`')
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Database\BaseConnection->getFieldData('fikri', 'users')
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-06-14 17:06:55 --> Not unique table/alias: 'users'
+CRITICAL - 2021-06-14 17:06:55 --> Not unique table/alias: 'users'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `usernam...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-14 17:13:16 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 17:14:24 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 17:15:39 --> Call to a member function where() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-06-14 17:18:45 --> Unknown column 'fikri' in 'where clause'
+CRITICAL - 2021-06-14 17:18:45 --> Unknown column 'fikri' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-06-14 17:23:24 --> Unknown column 'fikri' in 'where clause'
+CRITICAL - 2021-06-14 17:23:24 --> Unknown column 'fikri' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-06-14 17:24:37 --> Unknown column 'fikri' in 'where clause'
+CRITICAL - 2021-06-14 17:24:37 --> Unknown column 'fikri' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-14 17:25:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getResultArray
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-14 17:27:40 --> Unknown column 'fikri' in 'where clause'
+CRITICAL - 2021-06-14 17:27:40 --> Unknown column 'fikri' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-06-14 17:28:04 --> Unknown column 'fikri' in 'where clause'
+CRITICAL - 2021-06-14 17:28:04 --> Unknown column 'fikri' in 'where clause'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT * FROM u...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('query', Array)
+#5 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('query', Array)
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-14 17:30:49 --> Too few arguments to function CodeIgniter\Database\BaseConnection::getIndexData(), 0 passed in C:\xampp\htdocs\ci4app\system\BaseModel.php on line 1746 and exactly 1 expected
+#0 C:\xampp\htdocs\ci4app\system\BaseModel.php(1746): CodeIgniter\Database\BaseConnection->getIndexData()
+#1 C:\xampp\htdocs\ci4app\system\Model.php(796): CodeIgniter\BaseModel->__call('getIndexData', Array)
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('getIndexData', Array)
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-14 17:31:57 --> Call to a member function getResultObject() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 17:32:20 --> Call to a member function getResultObject() on array
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 17:32:55 --> Call to undefined method App\Models\UserModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 17:33:16 --> Call to undefined method App\Models\UserModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 17:33:56 --> Call to undefined method App\Models\UserModel::getVar
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('getVar', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 17:35:21 --> Call to undefined method App\Models\UserModel::allowedFields
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('allowedFields', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 17:36:06 --> Call to undefined method App\Models\UserModel::allowedFields
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('allowedFields', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 17:36:29 --> Call to undefined method App\Models\UserModel::allowedFields
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\Model->__call('allowedFields', Array)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-14 17:41:37 --> Unknown column 'fikrierha' in 'field list'
+CRITICAL - 2021-06-14 17:41:37 --> Unknown column 'fikrierha' in 'field list'
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT `fikrier...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fikrier...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fikrier...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `fikrier...', Array, false)
+#4 C:\xampp\htdocs\ci4app\system\Model.php(158): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\BaseModel.php(538): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\ci4app\system\Model.php(174): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\ci4app\system\BaseModel.php(571): CodeIgniter\Model->doFindColumn('fikrierha')
+#8 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(85): CodeIgniter\BaseModel->findColumn('fikrierha')
+#9 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#10 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#11 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-06-14 23:18:08 --> Undefined variable $encrypter
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 23:18:48 --> Undefined variable $encrypter
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-14 23:19:19 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+CRITICAL - 2021-06-14 23:19:19 --> Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 C:\xampp\htdocs\ci4app\system\Database\MySQLi\Connection.php(311): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci4app\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci4app\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci4app\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci4app\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#9 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-06-14 23:24:35 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:25:57 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:26:25 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:27:45 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?', 'fikri')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:28:08 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(104): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('', '{?w\x00\x1C?s5\x17?>Gw??...')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:29:09 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(96): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('', '{?w\x00\x1C?s5\x17?>Gw??...')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:33:22 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(97): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:36:06 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(97): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?', Array)
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:36:39 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(97): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('???s??\x08p?rvP?', Array)
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:40:36 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(97): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Pz8/PT8nPwoUPyc...')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:44:31 --> Decrypting: authentication failed.
+#0 C:\xampp\htdocs\ci4app\system\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(97): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('Pz8/PT8nPwoUPyc...')
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-14 23:54:16 --> Call to a member function row() on string
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-14 23:55:11 --> Attempt to read property "hash" on string
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Admin\Users.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-14 23:55:21 --> Call to a member function hash() on string
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->sistem()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

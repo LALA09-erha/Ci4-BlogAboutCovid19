@@ -1,0 +1,161 @@
+CRITICAL - 2021-06-17 16:59:56 --> login filter must have a matching alias defined.
+#0 C:\xampp\htdocs\ci4app\system\Filters\Filters.php(546): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+#1 C:\xampp\htdocs\ci4app\system\Filters\Filters.php(264): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\ci4app\system\Filters\Filters.php(168): CodeIgniter\Filters\Filters->initialize('/')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/', 'before')
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-06-17 17:03:31 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2021-06-17 17:06:52 --> Call to undefined function Config\Email()
+#0 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Admin\Users->confirm()
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-06-17 17:14:56 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2021-06-17 17:18:42 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2021-06-17 17:20:09 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2021-06-17 19:01:36 --> Unclosed '{' on line 10
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:08:22 --> Could not instantiate mail function.
+#0 C:\xampp\htdocs\ci4app\vendor\phpmailer\phpmailer\src\PHPMailer.php(1640): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Thu, 17 J...', 'This is a multi...')
+#1 C:\xampp\htdocs\ci4app\vendor\phpmailer\phpmailer\src\PHPMailer.php(1471): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(69): PHPMailer\PHPMailer\PHPMailer->send()
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:11:33 --> require(PHPmailer/src/Exception.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(PHPmail...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(9): require()
+#2 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(300): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#6 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#7 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#8 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-06-17 19:12:32 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:12:40 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:12:41 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:13:02 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:13:25 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:15:23 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:15:24 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:15:25 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:15:26 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:15:26 --> syntax error, unexpected identifier "one"
+#0 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4app\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('PHPMailer\\PHPMa...')
+#2 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Autoloader\Autoloader->loadClass('PHPMailer\\PHPMa...')
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#4 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#5 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-17 19:23:05 --> Undefined property: App\Controllers\Email::$load
+#0 C:\xampp\htdocs\ci4app\app\Controllers\Email.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(928): App\Controllers\Email->confirm()
+#2 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Email))
+#3 C:\xampp\htdocs\ci4app\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4app\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4app\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
